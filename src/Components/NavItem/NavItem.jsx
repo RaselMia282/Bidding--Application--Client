@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 
 export const NavItem = ({ to, children }) => {
   return (
-    <li>
+    
       <NavLink
         to={to}
         className={({ isActive }) =>
@@ -13,7 +13,7 @@ export const NavItem = ({ to, children }) => {
       >
         {children}
       </NavLink>
-    </li>
+    
   );
 };
 

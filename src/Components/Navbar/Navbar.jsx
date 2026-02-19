@@ -11,6 +11,12 @@ const Navbar = () => {
       <li>
         <NavItem to="/allProducts">All Products</NavItem>
       </li>
+      <li>
+        <NavItem to="/register">Register</NavItem>
+      </li>
+      <li>
+        <NavItem to="/login">Login</NavItem>
+      </li>
     </>
   );
   return (
